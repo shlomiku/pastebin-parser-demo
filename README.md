@@ -18,3 +18,18 @@ basic required implementation. using the simple-pastebin-parser to sample pasteb
 and storing the files to an OUTPUT local folder. 
 
 run it like so: `python main.py`
+
+
+
+v0.2.0 - Bonus 1
+---
+upgraded simple-pastebin-parser to v0.5.0
+
+Each one of the paste model's parameters must be normalized.
+For example:
+* Author - In cases it's Guest, Unknown, Anonymous, etc... the author name must be the same, for example: "" (empty string)
+* Title - Same as with Author.
+* Date - UTC Date
+* Content - Must be stripped of trailing spaces.
+
+run it like so: `python main.py
