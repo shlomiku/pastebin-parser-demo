@@ -1,1 +1,1 @@
-simple-pastebin-parser==0.4.1
+simple-pastebin-parser==0.4.2
