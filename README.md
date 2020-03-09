@@ -52,3 +52,9 @@ you can now use this command:
 the docker image will be built on top of python3.6.10-slim. that a container will be created, running the main.py file.
 the result files will still be created in the `OUTPUT` folder. 
 
+
+v0.4.0 - Bonus 3
+--- 
+store pastes to redis DB
+- added another container with redis
+- stored pastes to redis ( very simple POC )
