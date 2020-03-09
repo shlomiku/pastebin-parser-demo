@@ -1,17 +1,18 @@
-version: '3'
+version: '3.4'
 
 services:
   pastebin:
     build:
       context: .
       dockerfile: ./compose/Dockerfile
+      network: host
     command: python main.py
     volumes:
       - ./:/opt/project
-    links:
+    depends_on:
       - redis
 
   redis:
-    image: redis:3.2
+    image: redis:latest
     ports:
       - "6377:6379"
