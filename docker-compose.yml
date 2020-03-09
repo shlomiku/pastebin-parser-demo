@@ -10,3 +10,8 @@ services:
       - ./:/opt/project
     links:
       - redis
+
+  redis:
+    image: redis:3.2
+    ports:
+      - "6377:6379"
