@@ -35,3 +35,13 @@ For example:
 * Content - Must be stripped of trailing spaces.
 
 run it like so: `python main.py
+
+v0.3.0 - Bonus 2
+--- 
+run the app inside a container
+
+you can now use this command:
+`docker-compose up`
+
+the docker image will be built on top of python3.6.10-slim. that a container will be created, running the main.py file.
+the result files will still be created in the `OUTPUT` folder. 
