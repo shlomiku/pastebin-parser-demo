@@ -1,14 +1,20 @@
-[![Build Status](https://travis-ci.org/shlomikushchi/Simple-Pastebin-Parser.svg?branch=master)](https://travis-ci.org/shlomikushchi/Simple-Pastebin-Parser)
-
 # Demo project for the simple-pastebin-parser project
 
 you can check out the project [here](https://github.com/shlomikushchi/simple-pastebin-parser)
 
 installation:
 ---
+local execution: 
+
 `pip install -r requirements.txt`
 
 will install the latest version of simple-pastebin-parser
+
+run inside docker (make sure you have [docker](https://docs.docker.com/install/) and [docker-compose](https://docs.docker.com/compose/install/) installed)
+
+run the project like this:
+`docker-compose up`
+
 
   Release notes:
 ===
@@ -45,3 +51,4 @@ you can now use this command:
 
 the docker image will be built on top of python3.6.10-slim. that a container will be created, running the main.py file.
 the result files will still be created in the `OUTPUT` folder. 
+
