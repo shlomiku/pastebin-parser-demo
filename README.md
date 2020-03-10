@@ -44,6 +44,8 @@ run it like so: `python main.py
 
 v0.3.0 - Bonus 2
 --- 
+upgraded simple-pastebin-parser to v0.5.2
+
 run the app inside a container
 
 you can now use this command:
